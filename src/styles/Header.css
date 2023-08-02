@@ -1,6 +1,6 @@
 .header_top{
     padding: 10px 0px;
-    background: blue;
+    background: rgb(3, 3, 63);
     color: white;
 }
 
@@ -10,8 +10,136 @@
     column-gap: 1rem;
 }
 
+.header_top_left span{
+    font-size: .9rem;
+}
+
 .header_top_help{
     display: flex;
     align-items: center;
-    column-gap: 0.4rem;
+    column-gap: .4rem;
+}
+
+.header_top_help i{
+    background: white;
+    color: rgb(3, 3, 63);
+    padding: 2px 4px;
+    border-radius: 50px;
+    font-size: .7rem;
+}
+
+.header_top_right a{
+    text-decoration: none;
+    color: white;
+    font-size: .9rem;
+}
+
+.header_top_right a:hover{
+    color: white;
+}
+
+/*========================= Header Middle Styles ======================= */
+
+.header_middle{
+    padding: 20px 0px;
+}
+
+.logo h1 a span{
+    font-size: 1.5rem;
+}
+
+.logo h1 a i{
+    font-size: 2.2rem;
+}
+
+.logo h1 a{
+    text-decoration: none;
+    color: rgb(3, 3, 63);
+    font-weight: 600;
+}
+
+.logo h1{
+    line-height: 1.4rem;
+}
+
+.header_location span i{
+    font-size: 2.2rem;
+    color: rgb(3, 3, 63);
+}
+
+.header_location-content h4{
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: rgb(3, 3, 63);
+}
+
+.header_location-content h6{
+    font-weight: 600;
+}
+
+.header_btn{
+    background: rgb(3, 3, 63) !important;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.header_btn a{
+    display: flex;
+    align-items: center;
+    column-gap: .4rem;
+    text-decoration: none;
+    color: #fff;
+    justify-content: end;
+}
+
+.header_btn a:hover{
+    color: #fff;
+}
+
+/*======================== Main Navigation Styles =====================*/
+
+.main_navbar{
+    padding: 15px 0px;
+    background: rgb(3, 3, 63);
+}
+
+.mobile_menu i{
+    color: #fff;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+
+.mobile_menu{
+    display: none;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    column-gap: 2.7rem;
+}
+
+.nav_item{
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav_item:hover{
+    color: #fff;
+}
+.search_box{
+    border: 1px solid #7c8a972f;
+    padding: 1px 12px;
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    background: #020a4de9;
+}
+.search_box input{
+    background: transparent;
+    border: none;
+    outline:none;
+    color: #fff;
 }
