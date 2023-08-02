@@ -124,10 +124,11 @@
 .nav_item{
     color: #fff;
     text-decoration: none;
+    transition: .3s;
 }
 
 .nav_item:hover{
-    color: #fff;
+    color: #f9a826;
 }
 .search_box{
     border: 1px solid #7c8a972f;
@@ -137,9 +138,24 @@
     border-radius: 50px;
     background: #020a4de9;
 }
+
 .search_box input{
     background: transparent;
     border: none;
     outline:none;
     color: #fff;
+    cursor: pointer;
+}
+
+.search_box input::placeholder{
+    font-size: .8rem;
+}
+
+.search_box span i{
+    color: #f1edf1b6;
+    cursor: pointer;
+}
+
+.nav_active{
+    color: #f9a826;
 }
