@@ -1,0 +1,17 @@
+.header_top{
+    padding: 10px 0px;
+    background: blue;
+    color: white;
+}
+
+.header_top_left{
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+}
+
+.header_top_help{
+    display: flex;
+    align-items: center;
+    column-gap: 0.4rem;
+}

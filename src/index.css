@@ -1,13 +1,93 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/*==================GOOGLE FONTS==============*/
+@import url('https://fonts.googleapis.com/css2?family=Source+Sana+Pro:wght@200;300;400;600;700;900&display=swap');
+
+
+
+/*================BASE STYLE================*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+
+/*================PRE-DEFINE CSS============*/
+
+h1,h2,h3,h4,h5,h6 {
+    color: blue;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+h3,h4{
+    font-size: 1.8rem;
+}
+
+h5,h6{
+    font-size: 1.2rem;
+}
+
+a{
+    text-decoration: none;
+    color: unset;
+}
+
+a:hover{
+    color: unset;
+}
+
+ul{
+    margin: 0;
+    list-style: none;
+}
+
+.title_section{
+    color: blue;
+    font-weight: 600;
+    font-size: 2;
+}
+
+.subtitle_section{
+    color: yellow;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.description_section{
+    color: gray;
+    font-size: .9rem;
+}
+
+section{
+    padding: 50px 0px;
+}
+
+.btn{
+    padding: 7px 15px;
+    background: blue;
+    color: white;
+    border:none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.btn:hover{
+    color: white;
+    background: rgb(2, 2, 85);
+}
+
+@media only screen and (max-width: 768px){
+    section{
+        padding: 30px 0px;
+    }
+
+    .title_section{
+        font-size: 1.6rm;
+    }
+
+    .subtitle_section{
+        font-size: 1.1rem;
+    }
 }
