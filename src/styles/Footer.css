@@ -21,7 +21,7 @@
 }
 
 .quick_link{
-    border: none;
+    border: none !important;
     background: transparent !important;
 }
 

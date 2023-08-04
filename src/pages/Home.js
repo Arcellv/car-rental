@@ -1,11 +1,14 @@
-
-
 import React from 'react'
 
+import HeroSlider from '../components/UI/HeroSlider'
+import Helmet from '../components/helmet/Helmet'
+
 const Home = () => {
-  return (
-    <div>Home</div>
-  )
+  return <Helmet title="Home">
+    <section className="p-0 hero_slider-section">
+      <HeroSlider/>
+    </section>
+  </Helmet>
 }
 
 export default Home

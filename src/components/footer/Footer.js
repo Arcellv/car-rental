@@ -76,7 +76,7 @@ const Footer = () => {
             </div>
           </Col>
 
-          <Col lg="3" md="4">
+          <Col lg="3" md="4" sm="12">
             <div className="mb-4">
               <h5 className="footer_link-title">Newsletter</h5>
               <p className="section_description">Subscribe to our newsletter</p>
