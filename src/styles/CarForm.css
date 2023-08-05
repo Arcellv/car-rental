@@ -1,0 +1,82 @@
+.cars_left{
+    background: linear-gradient(rgb(249, 168, 38, 0.9), rgb(249, 168, 38, 0.9)), url('../assets/all-images/offer.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 65px 35px;
+}
+
+.cars_left h2{
+    font-weight: 600;
+    font-size: 2.8rem;
+}
+
+.form_group{
+    width: 30%;
+    margin-bottom: 0;
+}
+
+.form_group input{
+    border: 1px solid #7c8a972a;
+    padding: 8px 12px;
+    width: 100%;
+    outline:none;
+}
+
+.form_group input::placeholder{
+    color: #7c8a97;
+}
+
+.form{
+    background: #fff;
+    padding-top: 55px;
+    padding-bottom: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+.select_group{
+    width: 30%;
+}
+
+.select_group select{
+    width:100%;
+    padding: 10px 15px;
+    border: 1px solid #7c8a972a;
+    outline: none;
+    color: #7c8a97;
+}
+
+.hero_slider-section{
+    position: relative;
+    z-index: 10;
+    margin-bottom: 200px;
+}
+
+.hero_form{
+    position: absolute;
+    bottom: -150px;
+    z-index: 11;
+    width: 100%;
+}
+
+.form_row{
+    background: #fff;
+    box-shadow: 5px 5px 15px -5px #7c8a97;
+}
+
+.Journey_time::before{
+    content:"Journey time";
+    margin-right: .8rem;
+    color: #7c8a97;
+}
+
+.car_btn{
+    background:rgb(3, 3, 63) !important;
+    color: #fff !important;
+    padding: 8px 15px;
+    width: 100%;
+    border: none;
+    outline: none;
+}
