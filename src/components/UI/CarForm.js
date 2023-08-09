@@ -1,46 +1,42 @@
-import React from 'react'
-import '../../styles/CarForm.css'
+import React from "react"
 import "../../styles/CarForm.css"
+import "../../styles/CarForm.css"
+import { Form, FormGroup } from "reactstrap"
 
-import { Form, FormGroup  } from 'reactstrap'
-
-
-const CarForm = () => {
+const FindCarForm = () => {
   return (
     <Form className="form">
-      <div className="d-flex aligns-items-center justify-content-between flex-wrap">
-        <FormGroup className="form_group">
-          <input type="text" placeholder=" From address" required />
+      <div className=" d-flex align-items-center justify-content-between flex-wrap">
+        <FormGroup className="form__group">
+          <input type="text" placeholder="From address" required />
         </FormGroup>
 
-        <FormGroup className="form_group">
-          <input type="text" placeholder=" to address" required />
+        <FormGroup className="form__group">
+          <input type="text" placeholder="To address" required />
         </FormGroup>
 
-        <FormGroup className="form_group">
+        <FormGroup className="form__group">
           <input type="date" placeholder="Journey date" required />
         </FormGroup>
-
-        <FormGroup className="form_group">
-          <input  className="Journey_time" type="time" placeholder="Journey time" required />
-          <span>
-            <i class="ri-time-line"></i>
-          </span>
+        <FormGroup className="form__group">
+          <input className="journey__time" type="time" placeholder="Journey time" required />
         </FormGroup>
-
-        <FormGroup className="select_group">
+        <FormGroup className="select__group">
           <select>
-            <option value="ac"> AC Car</option>
-            <option value="non-ac"> None-AC Car</option>
+            <option value="select" hidden>
+              Select
+            </option>
+            <option value="ac">AC Car</option>
+            <option value="non-ac">Non AC Car</option>
           </select>
         </FormGroup>
 
-        <FormGroup className="form_group">
-          <button className="btn car_btn">Find car</button>
+        <FormGroup className="form__group">
+          <button className="btn car-btn">Find Car</button>
         </FormGroup>
       </div>
     </Form>
   );
-}
+};
 
-export default CarForm
+export default FindCarForm;
