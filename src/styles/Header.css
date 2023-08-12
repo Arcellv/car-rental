@@ -1,6 +1,6 @@
 .header_top{
     padding: 10px 0px;
-    background: rgb(3, 3, 63);
+    background: #020a4de9;
     color: white;
 }
 
@@ -22,7 +22,7 @@
 
 .header_top_help i{
     background: white;
-    color: rgb(3, 3, 63);
+    color:#020a4de9;
     padding: 2px 4px;
     border-radius: 50px;
     font-size: .7rem;
@@ -54,7 +54,7 @@
 
 .logo h1 a{
     text-decoration: none;
-    color: rgb(3, 3, 63);
+    color:#020a4de9;
     font-weight: 600;
 }
 
@@ -64,13 +64,13 @@
 
 .header_location span i{
     font-size: 2.2rem;
-    color: rgb(3, 3, 63);
+    color:#020a4de9;
 }
 
 .header_location-content h4{
     font-size: 1.2rem;
     font-weight: 700;
-    color: rgb(3, 3, 63);
+    color:#020a4de9;
 }
 
 .header_location-content h6{
@@ -78,7 +78,7 @@
 }
 
 .header_btn{
-    background: rgb(3, 3, 63) !important;
+    background:#020a4de9 !important;
     padding: 10px 20px;
     border: none;
     outline: none;
@@ -102,7 +102,7 @@
 
 .main_navbar{
     padding: 15px 0px;
-    background: rgb(3, 3, 63);
+    background:#020a4de9;
 }
 
 .mobile_menu i{

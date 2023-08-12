@@ -3,6 +3,7 @@ import React from 'react'
 import HeroSlider from '../components/UI/HeroSlider'
 import Helmet from '../components/helmet/Helmet'
 import CarForm from '../components/UI/CarForm'
+import AboutSection from '../components/UI/AboutSection'
 
 import { Container, Row, Col } from 'reactstrap'
 
@@ -27,6 +28,9 @@ const Home = () => {
         </Container>
       </div>
     </section>
+
+    {/*========================== ABOUT SECTION ========================== */}
+    <AboutSection />
   </Helmet>
 }
 

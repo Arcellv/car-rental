@@ -1,0 +1,9 @@
+.about_section {
+    column-gap: 3rem;
+}
+
+.about_section p i{
+    color: #f9a826;
+    font-size: 1.1rem;
+}
+
