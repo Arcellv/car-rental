@@ -8,6 +8,7 @@ import ServiceSection from '../components/UI/ServiceSection'
 import CarData from '../assets/data/carData'
 import CarItem from '../components/UI/CarItem'
 import DriverSection from '../components/UI/DriverSection'
+import Testimonial from '../components/UI/Testimonial'
 
 
 import { Container, Row, Col } from 'reactstrap'
@@ -73,7 +74,19 @@ const Home = () => {
 
       <DriverSection />
 
-      
+      {/*=================== TESTIMONIAL SECTION ====================== */}
+      <section>
+        <Container>
+          <Row>
+            <Col lg="12" className="mb-4 text-center">
+              <h6 className="subtitle_section">Clients</h6>
+              <h2 className="section_title">Testimonials</h2>
+            </Col>
+
+            <Testimonial />
+          </Row>
+        </Container>
+      </section>
     </Helmet>
   );
 }
