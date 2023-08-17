@@ -1,6 +1,6 @@
 // import all images from assets/images directory
 import img01 from "../all-images/cars/ca1.jpeg";
-import img02 from "../all-images/cars/ca2.jpeg";
+import img02 from "../all-images/cars/ca2.webp";
 import img03 from "../all-images/cars/ca3.webp";
 import img04 from "../all-images/cars/ca4.webp";
 import img05 from "../all-images/cars/ca5.jpeg";

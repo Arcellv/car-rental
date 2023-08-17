@@ -17,7 +17,7 @@ const ServiceItem = ({item}) => (
 
     <Col lg="4" md="6" className="mb-3">
         <div className="service_item">
-            <span className="mb-3">
+            <span className="mb-3 d-inline-block">
                 <i class={item.icon} />
             </span>
 
