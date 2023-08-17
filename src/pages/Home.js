@@ -9,6 +9,7 @@ import CarData from '../assets/data/carData'
 import CarItem from '../components/UI/CarItem'
 import DriverSection from '../components/UI/DriverSection'
 import Testimonial from '../components/UI/Testimonial'
+import BlogList from '../components/UI/BlogList'
 
 
 import { Container, Row, Col } from 'reactstrap'
@@ -87,6 +88,22 @@ const Home = () => {
           </Row>
         </Container>
       </section>
+
+      {/*=================== BLOG-LIST SECTION ====================== */}
+
+      <section>
+        <Container>
+          <Row>
+            <Col lg="12" className="mb-5 text-center">
+              <h6 className="subtitle_section">Explore our Blogs</h6>
+              <h2 className="section_title">Latest Blogs</h2>
+            </Col>
+
+            <BlogList />
+          </Row>
+        </Container>
+      </section>
+
     </Helmet>
   );
 }
