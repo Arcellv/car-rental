@@ -7,6 +7,7 @@ import AboutSection from '../components/UI/AboutSection'
 import ServiceSection from '../components/UI/ServiceSection'
 import CarData from '../assets/data/carData'
 import CarItem from '../components/UI/CarItem'
+import DriverSection from '../components/UI/DriverSection'
 
 
 import { Container, Row, Col } from 'reactstrap'
@@ -36,11 +37,10 @@ const Home = () => {
 
       {/*============== ABOUT SECTION =========== */}
 
-
       <AboutSection />
 
       {/*============== SERVICE SECTION =========== */}
-       <section>
+      <section>
         <Container>
           <Row>
             <Col lg="12" className="mb-5 text-center">
@@ -51,27 +51,29 @@ const Home = () => {
             <ServiceSection />
           </Row>
         </Container>
-       </section>
+      </section>
 
-
-       {/*===================CAR OFFER SECTION ======================== */}
-
+      {/*===================CAR OFFER SECTION ======================== */}
 
       <section>
-          <Container>
+        <Container>
           <Row>
             <Col lg="12" className="text-center mb-5">
               <h6 className="subtitle_section">Come with</h6>
               <h2 className="title_section">Hot offers</h2>
             </Col>
-            {
-              CarData.slice(0,6).map((item)=>(
-                <CarItem item={item} key={item.id} />
-              ))
-            }
+            {CarData.slice(0, 6).map((item) => (
+              <CarItem item={item} key={item.id} />
+            ))}
           </Row>
-          </Container>
+        </Container>
       </section>
+
+      {/*=================== DRIVER SECTION ======================== */}
+
+      <DriverSection />
+
+      
     </Helmet>
   );
 }
