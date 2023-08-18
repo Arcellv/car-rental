@@ -47,3 +47,27 @@
 .blog_title:hover{
     color: #f9a826;
 }
+
+@media only screen and (max-width:768px) {
+    .blog_time{
+        padding-top: 5p !important;
+    }
+
+    .blog_time span{
+        font-size: .7rem;
+    }
+
+    .blog_info p{
+        font-size: .7rem;
+        line-height: 1.5rem;
+        margin-top: 10px;
+    }
+
+    .blog_title{
+        font-size: 1.1rem;
+    }
+
+    .read_more{
+        font-size: .7rem;
+    }
+}

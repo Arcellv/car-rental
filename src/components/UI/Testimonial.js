@@ -1,6 +1,8 @@
 import React from 'react'
 import Slider from 'react-slick'
 
+import '../../styles/Testimonial.css'
+
 import ava01 from '../../assets/all-images/ava01.jpg'
 import ava02 from '../../assets/all-images/ava02.avif'
 import ava03 from '../../assets/all-images/ava03.jpeg'

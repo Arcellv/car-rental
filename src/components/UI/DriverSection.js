@@ -10,7 +10,7 @@ const DriverSection = () => {
     <section className="driver">
       <Container>
         <Row>
-          <Col lg="6" md="6" sm="12">
+          <Col lg="6" md="6" sm="12" className="driver-img">
             <img src={driver_img} alt="" className="w-100" />
           </Col>
 
