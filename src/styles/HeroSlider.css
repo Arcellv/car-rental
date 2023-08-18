@@ -48,3 +48,35 @@
     text-decoration: none;
     font-weight: 600;
 }
+
+.reserve_btn:hover{
+    background: #000d6b;
+    color: #fff;
+}
+
+@media only screen and (max-width:992px) {
+    
+    .slider_item{
+        height: 530px;
+        width: 100%;
+    }
+
+    .slider_content{
+        margin-top: 100px;
+    }
+
+    .slider_content h1{
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    
+    .slider_item{
+        height: 450px;
+    }
+
+    .slider_content h1{
+        font-style: 1.5rem;
+    }
+}

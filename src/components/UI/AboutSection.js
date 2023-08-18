@@ -6,7 +6,7 @@ import Img from '../../assets/all-images/offer2.webp'
 
 const AboutSection = () => {
   return (
-    <section>
+    <section className="about_section">
       <Container>
         <Row>
           <Col lg="6" md="6">

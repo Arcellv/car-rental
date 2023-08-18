@@ -7,3 +7,33 @@
     font-size: 1.1rem;
 }
 
+@media only screen and (max-width: 992px) {
+    .about_section-content h2{
+        font-style: 1.5rem;
+    }
+
+    .about_section-item{
+        column-gap: 3rem;
+    }
+
+    .about_section-item p{
+        font-style: 0.6rem;
+        margin-bottom: 0;
+    }
+
+    .section_description i{
+        font-style: 0.8rem !important;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .about_img{
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .about_section{
+        margin-top: 280px;
+    }
+}

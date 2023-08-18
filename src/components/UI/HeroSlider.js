@@ -36,7 +36,7 @@ const HeroSlider = () => {
       <div className="slider_item slider_item-02 mt0">
         <Container>
           <div className="slider_content">
-            <h6 className="text-light mb-3"> For Rent max $80 per day</h6>
+            <h6 className="text-light mb-3"> For Rent $80 per day</h6>
             <h1 className="text-light mb-4">Reserve Now to get 50% Off</h1>
           </div>
 
