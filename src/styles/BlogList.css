@@ -27,11 +27,23 @@
     color: #f9a826;
 }
 
-.author_name{
+.blog_author{
     color: #000d6b;
     font-weight: 600;
 }
 
-.author_name i{
+.blog_author i{
     font-weight: 500;
+}
+
+.blog_title{
+    text-decoration: none;
+    color: #000d6b;
+    font-size: 1.2rem;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.blog_title:hover{
+    color: #f9a826;
 }

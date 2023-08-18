@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useRef } from 'react'
 
 import { Container, Row, Col } from 'reactstrap'
 import { Link, NavLink } from 'react-router-dom'
@@ -28,6 +28,11 @@ const navLinks = [
 ];
 
 const Header = () => {
+  
+  const menuRef = useRef(null)
+
+  const toggleMenu = () => menuRef.current.classList.toggle('menu_active')
+
   return (
     <header className="header">
       {/*======================== Header-Top ==================== */}
@@ -98,7 +103,12 @@ const Header = () => {
               </div>
             </Col>
 
-            <Col lg="2" md="3" sm="0" className="d-flex align-items-center justify-content-end">
+            <Col
+              lg="2"
+              md="3"
+              sm="0"
+              className="d-flex align-items-center justify-content-end"
+            >
               <button className="header_btn btn">
                 <Link to="/contact">
                   <i class="ri-phone-line"></i> Call Request
@@ -114,26 +124,32 @@ const Header = () => {
         <Container>
           <div className="navigation_wrapper d-flex align-items-center justify-content-between">
             <span className="mobile_menu">
-            <i class="ri-menu-line"></i>
+              <i class="ri-menu-line" onClick={toggleMenu}></i>
             </span>
 
-            <div className="navigation">
-            <div className="menu">
-            {
-              navLinks.map((item, index)=>(
-                <NavLink to={item.path}  className={navClass => navClass.isActive ? 'nav_active nav_item' : 'nav_item'} key={index} > {item.display}
-                </NavLink>
-              ))
-            }
+            <div className="navigation" ref={menuRef} onClick={toggleMenu}>
+              <div className="menu">
+                {navLinks.map((item, index) => (
+                  <NavLink
+                    to={item.path}
+                    className={(navClass) =>
+                      navClass.isActive ? "nav_active nav_item" : "nav_item"
+                    }
+                    key={index}
+                  >
+                    {" "}
+                    {item.display}
+                  </NavLink>
+                ))}
+              </div>
             </div>
-            </div>
-            
+
             <div className="nav_right">
               <div className="search_box">
-              <input type="text" placeholder="Search" />
-              <span>
-                <i class="ri-search-line"></i>
-              </span>
+                <input type="text" placeholder="Search" />
+                <span>
+                  <i class="ri-search-line"></i>
+                </span>
               </div>
             </div>
           </div>

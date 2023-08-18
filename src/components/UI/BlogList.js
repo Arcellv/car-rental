@@ -19,16 +19,22 @@ const BlogItem = ({item}) => {
     const {imgUrl, title, author, date, description, time} = item
 
     return (
-      <Col lg="4" md="4" sm="6">
+      <Col lg="4" md="4" sm="6" className="mb-5">
         <div className="blog_item">
-          <img src={imgUrl} alt="" />
+          <img src={imgUrl} alt="" className="w-100" />
           <div className="blog_info p-3">
-            <Link>{`/blogs/${title}`}</Link>
-            <p className="description_section">
-              {description.length > 100 ? description.substr(0, 100) : description}
+            <Link to={`/Blogs/${title}`} className="blog_title">
+              {title}
+            </Link>
+            <p className="description_section mt-3">
+              {description.length > 100
+                ? description.substr(0, 100)
+                : description}
             </p>
 
-            <Link className="read_more"> {`/blogs/${title}`} Read More</Link>
+            <Link to={`/Blogs/${title}`} className="read_more">
+              Read More
+            </Link>
 
             <div className="blog_time pt-3 mt-3 d-flex align-items-center justify-content-between">
               <span className="blog_author">
