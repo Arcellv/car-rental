@@ -1,12 +1,12 @@
-import React from "react";
-import "../../styles/Members.css";
-import { Col } from "reactstrap";
-import { Link } from "react-router-dom";
+import React from "react"
+import "../../styles/Members.css"
+import { Col } from "reactstrap"
+import { Link } from "react-router-dom"
 
 import ava05 from "../../assets/all-images/ava05.webp";
-import ava06 from " ../../assets/all-images/ava06.jpg";
-import ava07 from " ../../assets/all-images/ava07.avif";
-import ava08 from " ../../assets/all-images/ava08.jpg";
+import ava06 from "../../assets/all-images/ava06.webp";
+import ava07 from "../../assets/all-images/ava07.webp";
+import ava08 from "../../assets/all-images/ava08.webp";
 
 const Member = [
   {
@@ -57,8 +57,8 @@ const Members = () => {
         <Col lg="3" md="3" sm="4" xs="6" key={index} className="mb-4">
           <div className="single_member">
             <div className="single_member-img">
-              <img src={item.imgUrl} alt=""  className="w-100"/>
-
+              <img src={item.imgUrl} alt=""className="w-100"/>
+              
               <div className="single_member-social">
                 <Link to={item.fbUrl}>
                   <i class="ri-facebook-line"></i>

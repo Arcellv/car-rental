@@ -1,0 +1,16 @@
+.single_member{
+    border: 1px solid #7c8a972d;
+    border-radius: 4px;
+}
+
+.single_member img{
+    width: auto;
+    height: 300px;
+}
+
+.single_member-social{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 0.5rem;
+}
