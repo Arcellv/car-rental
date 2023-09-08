@@ -3,10 +3,10 @@ import "../../styles/Members.css"
 import { Col } from "reactstrap"
 import { Link } from "react-router-dom"
 
-import ava05 from "../../assets/all-images/ava05.webp";
-import ava06 from "../../assets/all-images/ava06.webp";
-import ava07 from "../../assets/all-images/ava07.webp";
-import ava08 from "../../assets/all-images/ava08.webp";
+import ava05 from "../../assets/all-images/ava05.jpg";
+import ava06 from "../../assets/all-images/ava06.jpg";
+import ava07 from "../../assets/all-images/ava07.jpg";
+import ava08 from "../../assets/all-images/ava08.jpg";
 
 const Member = [
   {
