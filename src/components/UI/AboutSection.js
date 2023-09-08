@@ -4,9 +4,9 @@ import { Container, Row, Col } from 'reactstrap'
 import '../../styles/AboutSection.css'
 import Img from '../../assets/all-images/offer2.webp'
 
-const AboutSection = () => {
+const AboutSection = ({aboutClass}) => {
   return (
-    <section className="about_section">
+    <section className="about_section"  style={aboutClass === "aboutPage" ? {marginTop: "0px"}:{marginTop:"280px"}}>
       <Container>
         <Row>
           <Col lg="6" md="6">

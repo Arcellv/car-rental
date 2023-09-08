@@ -6,12 +6,13 @@ import { Container, Row, Col } from 'reactstrap'
 import DriverSection from '../components/UI/DriverSection'
 import DriveImg from '../assets/all-images/drive.webp'
 import Members from '../components/UI/Members'
+import '../styles/About.css'
 
 const About = () => {
   return (
     <Helmet title="About">
       <CommonSection title="About Us" />
-      <AboutSection />
+      <AboutSection aboutClass="aboutPage"/>
 
       <section className="page_section">
         <Container>

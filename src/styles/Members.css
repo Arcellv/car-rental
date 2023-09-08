@@ -42,6 +42,12 @@
     position: relative;
     cursor: pointer;
 }
+
 .single_member-img img{
     border-radius: 4px;
+}
+
+.single_member-img:hover .single_member-social{
+    top:0;
+    opacity: 1;
 }
