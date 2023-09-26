@@ -32,6 +32,10 @@
     padding-top: 150px;
 }
 
+.slider_content h6{
+    font-size: 1.2rem;
+}
+
 .slider_content h1{
     font-size: 3.2rem;
     font-weight: 600;
@@ -68,6 +72,10 @@
     .slider_content h1{
         font-size: 2rem;
     }
+
+    .slider_content h6{
+        font-size: 1rem;
+    }
 }
 
 @media only screen and (max-width: 844px) {
@@ -78,5 +86,9 @@
 
     .slider_content h1{
         font-size: 1.5rem;
+    }
+
+    .slider_content h6{
+        font-size: 1.2rem;
     }
 }
