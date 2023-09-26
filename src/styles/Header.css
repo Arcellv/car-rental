@@ -160,7 +160,7 @@
     color: #f9a826;
 }
 
-@media only screen and (max-width:768px) {
+@media only screen and (max-width:844px) {
     .header_top, 
     .header_middle, 
     .nav_right{

@@ -70,7 +70,7 @@
     border-top: 1px solid #7c8a9f2f;
 }
 
-@media only screen and (max-width:768px){
+@media only screen and (max-width:844px){
     .footer_logo-content{
         font-size: .8rem;
     }

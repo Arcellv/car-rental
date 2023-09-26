@@ -26,3 +26,16 @@
 .booking_form select:focus {
     outline: none;
 }
+
+@media only screen and (max-width:844px) {
+    .booking_form{
+        width: 100%;
+    }
+
+    .booking_form input, 
+    .textarea, 
+    .booking_form select {
+        font-size: 0.8rem;
+
+    }
+}

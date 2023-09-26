@@ -48,7 +48,7 @@
     color: #f9a826;
 }
 
-@media only screen and (max-width:768px) {
+@media only screen and (max-width:844px) {
     .blog_time{
         padding-top: 5p !important;
     }
