@@ -3,6 +3,7 @@ import carData from '../assets/data/carData'
 import { Container, Row, Col } from 'reactstrap'
 import Helmet from '../components/helmet/Helmet'
 import { useParams } from 'react-router-dom'
+import Booking from '../components/UI/Booking'
 
 
 const CarDetails = () => {
@@ -104,6 +105,7 @@ const CarDetails = () => {
             <Col lg="7" className="mt-5">
               <div className="booking-info mt-5">
                 <h5 className="mb-4 fw-bold">Booking Information</h5>
+                <Booking/>
               </div>
             </Col>
 
