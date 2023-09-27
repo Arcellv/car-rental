@@ -4,6 +4,7 @@ import { Container, Row, Col } from 'reactstrap'
 import { useParams } from 'react-router-dom'
 import blogData from '../assets/data/dataBlog'
 import Helmet from '../components/helmet/Helmet'
+import '../styles/BlogDetails.css'
 
 const BlogDetails = () => {
   
