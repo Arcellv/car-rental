@@ -48,9 +48,9 @@ const BlogDetails = () => {
               <div className="comment_list mt-5">
                 <h4 className="mb-5"> 3comments</h4>
 
-                <div className="single__comment d-flex gap-3">
+                <div className="single_comment d-flex gap-3">
                   <img src={blog.commentImg} alt="" />
-                  <div className="comment__content">
+                  <div className="comment_content">
                     <h6 className=" fw-bold">David Visa</h6>
                     <p className="description_section mb-0">14 July, 2022</p>
                     <p className="description_section">

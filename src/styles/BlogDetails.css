@@ -5,3 +5,19 @@
 blockquote {
     line-height: 35px;
 }
+
+.single_comment img {
+    width: 7px;
+    height: 7px;
+    border-radius: 40%;
+    border: 2px solid #000d6b;
+}
+
+.replay i {
+    color: #f9a826;
+}
+
+.replay {
+    color: #000d6b;
+    font-weight: 600;
+}
