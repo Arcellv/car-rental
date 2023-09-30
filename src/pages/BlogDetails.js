@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react'
-import { Container, Row, Col } from 'reactstrap'
+import { Container, Row, Col, Form, FormGroup, Input } from 'reactstrap'
+import { Link } from 'react-router-dom'
 
 import { useParams } from 'react-router-dom'
 import blogData from '../assets/data/dataBlog'
@@ -65,7 +66,49 @@ const BlogDetails = () => {
                     </span>
                   </div>
                 </div>
+
+                {/* ==================== Comment Form ====================*/}
+
+                <div className="leave_comment mt-5">
+                  <h4>Leave a comment</h4>
+                  <p className="description_section">
+                    you must sign in to comment and make a post
+                  </p>
+
+                  <Form>
+                    <FormGroup className="d-flex gap-3">
+                      <Input type="text" placeholder="Full name" />
+                      <Input type="Email" placeholder="Email" />
+                    </FormGroup>
+
+                    <FormGroup>
+                      <textarea
+                        className="w-100 py-2 px-3"
+                        rows={5}
+                        placeholder="Comment..."
+                      ></textarea>
+                    </FormGroup>
+
+                    <button className="btn comment_btn mt-3"> Post </button>
+                  </Form>
+                </div>
               </div>
+            </Col>
+
+            <Col lg="4" md="4">
+              <div className="recent_post mb-4">
+                <h5 className="fw-bold">Recent Posts</h5>
+              </div>
+              {blogData.map((item) => (
+                <div className="recent_blog-post mb-4">
+                  <div className="recent_blog-item d=flex gap-3">
+                    <img src={item.imgUrl} alt="" className="w-25 rounded-2" />
+                    <h6>
+                      <Link to={`/blogs/${item.title}`}>{blog.title}</Link>
+                    </h6>
+                  </div>
+                </div>
+              ))}
             </Col>
           </Row>
         </Container>

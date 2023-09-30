@@ -1,25 +1,86 @@
 .blog_publisher span i {
-    color: #f9a826;
+  color: #f9a826;
 }
 
 blockquote {
-    line-height: 35px;
+  line-height: 35px;
 }
 
 .single_comment img {
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
-    border: 2px solid #000d6b;
-    object-fit: cover;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 2px solid #000d6b;
+  object-fit: cover;
 }
 
 .replay i {
-    color: #f9a826;
+  color: #f9a826;
 }
 
 .replay {
-    color: #000d6b;
-    font-weight: 600;
-    cursor: pointer;
+  color: #000d6b;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.leave_comment input,
+.leave_comment textarea {
+  border: 1px solid rgba(0, 12, 107, 0.118);
+}
+
+.leave_comment textarea:focus {
+  outline: none;
+}
+
+.comment_btn {
+  background: #000d6b !important;
+  color: #fff !important;
+}
+
+.recent_post-item h6 a {
+  text-decoration: none;
+  color: #000d6b;
+  font-weight: 700;
+}
+
+.recent_post{
+     margin-top: 60px;
+}
+
+@media only screen and(max-width:884px) {
+
+  .recent_post{
+    margin-top: 3000px;
+  }
+
+  .leave_comment input,
+  .leave_comment textarea {
+    font-size: 0.7rem;
+  }
+
+  .comment_btn{
+    padding: 5px 10px;
+    font-size: 0.8rem;
+    margin-top: 0px !important;
+  }
+
+  .leave_comment{
+    font-size: 1.3rem;
+  }
+
+  .single_comment img{
+    width: 40px;
+    height: 40ps;
+  }
+
+  .comment_content p{
+    font-size: 0.8rem;
+    line-height: 1.4rm;
+  }
+
+  .blog_details{
+    font-style: 0.8rem;
+    line-height: 1.4rem;
+  }
 }
